@@ -1,0 +1,10 @@
+eng=int(input("Enter english marks== "))
+urdu=int(input("Enter urdu marks== "))
+maths=int(input("Enter maths marks== "))
+phy=int(input("Enter physics marks== "))
+py=int(input("Enter python marks== "))
+total=500
+obt=eng+urdu+maths+phy+py
+res=obt/total
+per=res*100
+print("Your percentage is",per,"%")
